@@ -1,0 +1,31 @@
+/*==================FONTS===================*/
+
+@font-face {
+    font-family: Rob;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Helvetica-Md;
+    src: url(../fonts/HelveticaNeueLTPro-Md.otf);
+}
+
+@font-face {
+    font-family: Helvetica-Roman;
+    src: url(../fonts/HelveticaNeueLTPro-Roman.otf);
+}
+
+@font-face {
+    font-family: Helvetica-Lt;
+    src: url(../fonts/HelveticaNeueLTPro-Lt.otf);
+}
+
+@font-face {
+    font-family: Merri;
+    src: url(../fonts/Merriweather-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Mont;
+    src: url(../fonts/Montserrat.ttf);
+}
