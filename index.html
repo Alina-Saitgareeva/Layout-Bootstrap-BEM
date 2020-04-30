@@ -12,27 +12,27 @@
 
 <body>
 
-    <nav>
+    <nav id="navigation" class="navigation">
         <div class="container">
             <div class="row">
                 <ul>
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>Home</li>
                     </a>
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>About Us</li>
                     </a>
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>Team</li>
                     </a>
                         <img src="" alt="H">
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>Services</li>
                     </a>
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>Blog</li>
                     </a>
-                    <a href="#">
+                    <a href="#" target="blank">
                         <li>Contact Us</li>
                     </a>
                 </ul>
@@ -40,17 +40,120 @@
         </div>
     </nav>
 
-    <header>
+    <header class="header" id="header">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-6">
-                    <h1>We build it with passion</h1>
-                    <h4>Just to be clear, we do this for fun not for you, just kidding.</h4>
-                    <button class="button_header" data-toggle="modal" href="#">READ MORE</button>
+            <div class="row header-info">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <h2 class="header-info__title">We build it with passion</h2>
+                    <h5 class="header-info__subtitle">Just to be clear, we do this for fun not for you, just kidding.</h5>
+                    <button class="header-info__button" data-toggle="modal" href="#">READ MORE</button>
                 </div>
             </div>
         </div>
     </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row about__years">
+                <div class="col-md-5 offset-md-1 about_left">
+                    <h1>2011</h1>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Quam minima voluptatum sit quidem reprehenderit cumque!</h5>
+                </div>
+            </div>
+            <div class="row about__years">
+                <div class="col-md-5 offset-md-6 about_right">
+                    <h1>2012</h1>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Porro nisi impedit nulla fugiat<br> dolorum recusandae earum cupiditate? Vel, voluptate!</h5>
+                </div>
+            </div>
+            <div class="row about__years">
+                <div class="col-md-5 offset-md-1 about_left">
+                    <h1>2013</h1>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Aperiam quia veniam incidunt <br>voluptatibus ducimus voluptate officia, ab exercitationem <br>vel fugit.   
+                    </h5>
+                </div>
+            </div>
+            <div class="row about__years">
+                <div class="col-md-5 offset-md-6 about_right">
+                    <h1>2014</h1>
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing<br> elit. Aperiam quia veniam incidunt <br>voluptatibus ducimus voluptate officia, ab exercitationem <br>vel fugit.   
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row team-info">
+                <div class="col-md-4 d-flex justify-content-center team-info__text">
+                    <h3>This is our team</h3>
+                    <h5>Maybe not everything, but we provide you some stuff.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="" alt="analytics">
+                    <h4>Some Analytics</h4>
+                    <h5>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</h5>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="" alt="Provide">
+                    <h4>We provide you love</h4>
+                    <h5>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</h5>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <img src="" alt="Cloud">
+                    <h4>And Some Cloud</h4>
+                    <h5>Aenean nisi lectus, convallis non lorem sit amet, rhoncus malesuada justo</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"> 
+                    <button data-toggle="modal" href="#">
+                        VISIT OUR BLOG
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row contact__text">
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <h5>We know what we need to do</h5>
+                </div>
+            </div>
+            <div class="row contact__icon">
+                <div class="col-md-2">
+                    <img src="" alt="telephone">
+                    <h6>555-222-333</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="" alt="location">
+                    <h6>Here is some address</h6>
+                </div>
+                <div class="col-md-2">
+                    <img src="" alt="email">
+                    <h6>somemail@gmail.com</h6>
+                </div>
+            </div>
+            <div class="row contact__input">
+                <div class="col-md-8 d-flex justify-content-center">
+                    <form action="#">
+                        <input type="text" placeholder="Full Name" class="contact__name">
+                        <input type="text" placeholder="Email" class="contact__name">
+                        <input type="text" placeholder="Name" class="contact__name">
+                        
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
 </body>
 
 </html>
