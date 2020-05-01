@@ -44,7 +44,7 @@
     width: 54px;
     height: 55px;
     text-align: center;
-    margin: 0px 135px 0px 135px;
+    margin: 0px 140px 0px 140px;
 }
 
 /*==================HEADER===================*/
@@ -75,7 +75,7 @@
     font-family: Mont;
     font-size: 13px;
     background-color: #fff;
-    border: 2px solid #1e1e1e;
+    border: 1px solid #1e1e1e;
 }
 
 .header-info__button:hover {
