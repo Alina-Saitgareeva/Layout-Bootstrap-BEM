@@ -29,3 +29,59 @@
     font-family: Mont;
     src: url(../fonts/Montserrat.ttf);
 }
+
+/*==================NAVIGATION===================*/
+.navigation li a {
+    display: inline-block;
+    font-size: 13px;
+    font-family: Rob;
+    color: #d2d2d2;
+    padding: 15px 30px 20px 50px ;
+    margin: 5px 0px 10px 5px;
+}
+
+.navigation ul img {
+    width: 54px;
+    height: 55px;
+    text-align: center;
+    margin: 0px 135px 0px 135px;
+}
+
+/*==================HEADER===================*/
+
+.navigation
+.header {
+    background-color: #ffffff;
+}
+
+.header-info__title {
+    color: #1e1e1e;
+    font-family: Helvetica-Lt;
+    font-size: 44px;
+    padding-top: 297px;
+}
+
+.header-info__subtitle {
+    font-size: 16px;
+    font-family: Merri;
+    color: #dfdfdf;
+}
+
+.header-info__button {
+    color: #1e1e1e;
+    margin: 46px 0px 230px 0px;
+    width: 188px;
+    height: 56px;
+    font-family: Mont;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #1e1e1e;
+}
+
+.header-info__button:hover {
+    background-color: #dfdfdf;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #000;
+}
