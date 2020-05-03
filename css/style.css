@@ -112,15 +112,16 @@
     padding-bottom: 420px;
 }
 
-/*==================ABOUT===================*/
-
+/*==================TEAM-INFO===================*/
+/*add repeated code*/
+.support__title,
 .team-info__title {
     font-family: Helvetica-Lt;
     font-size: 34px;
     color: #1e1e1e;
     padding-top: 100px;
 }
-
+.support__subtitle,
 .team-info__subtitle {
     font-family: Merri;
     font-size: 16px;
@@ -148,6 +149,10 @@
     font-size: 13px;
     color: #dfdfdf;
     margin-bottom: 23px;
-
 }
 
+/*==================SUPPORT===================*/
+
+.support {
+    background: url(../img/support_background.jpg) no-repeat center;
+}
