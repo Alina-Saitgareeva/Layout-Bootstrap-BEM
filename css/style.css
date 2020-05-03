@@ -93,13 +93,13 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
 .about__years h2{
     font-family: Helvetica-Lt;
     font-size: 40px;
     color: #fefefe;
     margin: 120px 40px 20px 40px;
 }
-
 
 .about__years h6 {
     font-family: Mont;
@@ -111,3 +111,43 @@
 .about__last {
     padding-bottom: 420px;
 }
+
+/*==================ABOUT===================*/
+
+.team-info__title {
+    font-family: Helvetica-Lt;
+    font-size: 34px;
+    color: #1e1e1e;
+    padding-top: 100px;
+}
+
+.team-info__subtitle {
+    font-family: Merri;
+    font-size: 16px;
+    color: #dfdfdf;
+    margin-top: 14px;
+}
+
+.team-staff__photo {
+    margin-top: 214px;
+}
+
+.team-staff__second {
+    margin-top: 125px;
+}
+
+.team-staff h4{
+    font-family: Helvetica-Lt;
+    font-size: 24px;
+    color: #1e1e1e;
+    margin: 24px 0px 5px 0px;
+}
+
+.team-staff__subtitle {
+    font-family: Helvetica-Lt;
+    font-size: 13px;
+    color: #dfdfdf;
+    margin-bottom: 23px;
+
+}
+
