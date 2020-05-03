@@ -85,3 +85,29 @@
     outline: none;
     color: #000;
 }
+
+/*==================ABOUT===================*/
+
+.about {
+    background: url(../img/about_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about__years h2{
+    font-family: Helvetica-Lt;
+    font-size: 40px;
+    color: #fefefe;
+    margin: 120px 40px 20px 40px;
+}
+
+
+.about__years h6 {
+    font-family: Mont;
+    font-size: 15px;
+    color: #a2a2a2;
+    margin: 20px 40px 0px 40px;
+}
+
+.about__last {
+    padding-bottom: 420px;
+}
