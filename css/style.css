@@ -74,16 +74,16 @@
     height: 56px;
     font-family: Mont;
     font-size: 13px;
-    background-color: #fff;
-    border: 1px solid #1e1e1e;
+    background-color: rgb(233, 233, 233);
+    border:none;
 }
 
 .header-info__button:hover {
-    background-color: #dfdfdf;
+    background-color: #e7e2e2;
     text-decoration: none;
-    border: none;
+    border: 1px solid #353535;
     outline: none;
-    color: #000;
+    color: #353535;
 }
 
 /*==================ABOUT===================*/
@@ -115,6 +115,7 @@
 /*==================TEAM-INFO===================*/
 /*add repeated code*/
 .support__title,
+.contact__title,
 .team-info__title {
     font-family: Helvetica-Lt;
     font-size: 34px;
@@ -122,6 +123,7 @@
     padding-top: 100px;
 }
 .support__subtitle,
+.contact__subtitle,
 .team-info__subtitle {
     font-family: Merri;
     font-size: 16px;
@@ -151,8 +153,82 @@
     margin-bottom: 23px;
 }
 
+.team-staff__icon {
+    margin: 0px 10px 85px 10px;
+}
+
 /*==================SUPPORT===================*/
 
 .support {
-    background: url(../img/support_background.jpg) no-repeat center;
+    background: url(../img/support_background.jpg) center no-repeat;
 }
+
+.support__title {
+    margin-top: 150px;
+    color: #ffffff;
+}
+
+.support__subtitle {
+    margin-bottom: 150px;
+    color: #2a2a2a;
+}
+
+.support__data img {
+    margin-top: 20px;
+}
+
+.support__data h4 {
+    margin: 40px 10px 40px 10px;
+    color: #ffffff;
+    font-family: Helvetica-Lt;
+    font-size: 24px;
+}
+
+.support__data h6 {
+    color: #2a2a2a;
+    font-family: Merri;
+    font-size: 16px;
+}
+
+.support__button {
+    border: none;
+    color: #000000;
+    background-color: #fff;
+    font-family: Mont;
+    font-size: 13px;
+    text-transform: uppercase;
+    width: 216px;
+    height: 64px;
+    margin: 150px 0px 150px 0px;
+}
+
+.support__button:hover {
+    background-color: #e7e2e2;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    color: #1e1e1e;
+}
+
+/*==================CONTACT===================*/
+
+.contact__text {
+    margin: 100px 0px 64px 0px;
+}
+
+.contact__icon {
+    margin: 2px 95px 2px 95px;
+}
+
+.contact__icon h6 {
+    font-family: Helvetica-Lt;
+    font-size: 12px;
+    color: #adadad;
+    margin: 15px 0px 150px 0px;
+}
+
+.last_image {
+    margin-top: 12px;
+}
+
+.
