@@ -287,4 +287,11 @@
     border:none;
 }
 
+/*==================FOOTER===================*/
 
+.footer h6{
+    color: #1e1e1e;
+    margin: 150px 10px 50px 10px;
+    font-family: Helvetica-Lt;
+    font-size: 14px;
+}
