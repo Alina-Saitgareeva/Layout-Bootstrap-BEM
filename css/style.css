@@ -170,7 +170,7 @@
 
 .support__subtitle {
     margin-bottom: 150px;
-    color: #2a2a2a;
+    color: #adadad;
 }
 
 .support__data img {
@@ -185,7 +185,7 @@
 }
 
 .support__data h6 {
-    color: #2a2a2a;
+    color: #adadad;
     font-family: Merri;
     font-size: 16px;
 }
@@ -231,4 +231,60 @@
     margin-top: 12px;
 }
 
-.
+.contact__name {
+    width: 770px;
+    height: 53px;
+    margin: 10px;
+    color: #adadad;
+    font-family: Helvetica-Lt;
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+    transition: 0.5s;
+    border: 1px solid #adadad;
+}
+
+.contact__name:hover,
+.contact__name:active {
+    border: 1px solid #353535;
+    transform: scale(1.1);
+}
+
+.contact__input textarea {
+    padding: 10px;
+    width: 770px;
+    height: 190px;
+    color: #adadad;
+    border: 1px solid #adadad;
+    margin: 10px;
+    transition: 0.5s;
+    outline: none;
+}
+
+.contact__input textarea:hover,
+.contact__input textarea:active {
+    outline: none;
+    transform: scale(1.1);
+    border: 1px solid #353535;
+}
+
+.contact__submit {
+    color: #fff;
+    background-color: #000;
+    font-family: Helvetica-Lt;
+    font-size: 15px;
+    width: 770px;
+    height: 53px;
+    margin: 10px;
+    outline: none;
+    transition: 0.5s;
+    border:none;
+}
+
+.contact__submit:hover {
+    color: #a2a2a2;
+    background-color: #1e1e1e;
+    border:none;
+}
+
+
